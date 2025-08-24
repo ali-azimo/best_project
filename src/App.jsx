@@ -23,6 +23,7 @@ import NovoLancamento from './components/NovoLancamento';
 import CadastrarContabilista from './components/CadastrarContabilista';
 import CadEmpresa from './pages/CadEmpresa';
 
+
 export default function App() {
   return (
     <BrowserRouter>

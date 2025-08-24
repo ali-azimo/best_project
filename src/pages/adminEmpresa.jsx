@@ -19,6 +19,7 @@ import {
   signOutUserStart,
 } from "../redux/user/userSlice";
 
+
 export default function AdminEmpresa() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const location = useLocation();

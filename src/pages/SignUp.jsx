@@ -9,6 +9,7 @@ export default function SignUp() {
     confirmPassword: "",
   });
 
+
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [success, setSuccess] = useState(false);
@@ -61,6 +62,7 @@ export default function SignUp() {
       setLoading(false);
     }
   };
+
 
   if (success) {
     return (
